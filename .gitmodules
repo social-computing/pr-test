@@ -1,0 +1,3 @@
+[submodule "directory"]
+	path = directory
+	url = git@github.com:spiroid/pr-test-sub.git
