@@ -1,9 +1,11 @@
-"""Module docstring.
-
-This serves as a long usage message.
+# coding=utf-8
+"""
+Copyright Groupe SEB 2012
+Written by KI
 """
 import sys
 import getopt
+import logging
 
 def main():
     # parse command line options
@@ -20,7 +22,7 @@ def main():
             sys.exit(0)
     # process arguments
     for arg in args:
-        process(arg) # process() is defined elsewhere
+        logging.info('oh yeah ! %s', arg)
 
 if __name__ == "__main__":
     main()
